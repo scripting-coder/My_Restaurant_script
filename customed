@@ -2400,7 +2400,7 @@ function RayfieldLibrary:LoadConfiguration()
 		pcall(function()
 			if isfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
 				LoadConfiguration(readfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
-        RayfieldLibrary:Notify({Title = "Script Loaded", Content = "Current script version: 1.00.2 \nMatching update: Dominus Infernus\nCheck update logs for changes!"})
+        RayfieldLibrary:Notify({Title = "Script Loaded", Content = "Current script version: 1.00.2.1 \nMatching update: Dominus Infernus\nCheck update logs for changes!"})
 				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "The configuration file for this script has been loaded from a previous session"})
 			end
 		end)
